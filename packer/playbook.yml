@@ -1,0 +1,10 @@
+# playbook.yml
+- name: 'Provision Image'
+  hosts: localhost
+  become_user: root
+  become: true
+  tasks:
+    - name: install Apache
+      package:
+        name: 'apache2'
+        state: present

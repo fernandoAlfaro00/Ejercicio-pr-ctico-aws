@@ -1,0 +1,8 @@
+vpc_id                 = ""
+db_password            = ""
+db_username            = ""
+ec2_ami                = ""
+vpc_availability_zones = []
+private_subnets        = []
+public_subnets         = []
+database_subnets       = []
